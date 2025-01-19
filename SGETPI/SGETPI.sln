@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.API", "SGETPI.API\SGETPI.API.csproj", "{D2EB2044-14B7-4ADE-A372-FC190E73B070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.DAL", "SGETPI.DAL\SGETPI.DAL.csproj", "{292E5DC1-5C29-4BC0-A7FA-C258AD6E1960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.BLL", "SGETPI.DLL\SGETPI.BLL.csproj", "{44DC9F38-8822-4C69-888A-24C193139FC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.Model", "SGETPI.Model\SGETPI.Model.csproj", "{E97B030D-615E-470C-8C1C-5885E754DB63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.IOC", "SGETPI.IOC\SGETPI.IOC.csproj", "{EAFD0A0A-509E-46D9-894B-B89AC7A38647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.DTO", "SGETPI.DTO\SGETPI.DTO.csproj", "{74AFCE21-B209-4213-BDDF-283790CE73A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGETPI.Utility", "SGETPI.Utility\SGETPI.Utility.csproj", "{C0249CDF-A1DA-4BC6-A19C-A52114F053C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2EB2044-14B7-4ADE-A372-FC190E73B070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EB2044-14B7-4ADE-A372-FC190E73B070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EB2044-14B7-4ADE-A372-FC190E73B070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EB2044-14B7-4ADE-A372-FC190E73B070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292E5DC1-5C29-4BC0-A7FA-C258AD6E1960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E5DC1-5C29-4BC0-A7FA-C258AD6E1960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292E5DC1-5C29-4BC0-A7FA-C258AD6E1960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292E5DC1-5C29-4BC0-A7FA-C258AD6E1960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DC9F38-8822-4C69-888A-24C193139FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DC9F38-8822-4C69-888A-24C193139FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DC9F38-8822-4C69-888A-24C193139FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DC9F38-8822-4C69-888A-24C193139FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97B030D-615E-470C-8C1C-5885E754DB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97B030D-615E-470C-8C1C-5885E754DB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97B030D-615E-470C-8C1C-5885E754DB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97B030D-615E-470C-8C1C-5885E754DB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFD0A0A-509E-46D9-894B-B89AC7A38647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFD0A0A-509E-46D9-894B-B89AC7A38647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFD0A0A-509E-46D9-894B-B89AC7A38647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFD0A0A-509E-46D9-894B-B89AC7A38647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AFCE21-B209-4213-BDDF-283790CE73A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AFCE21-B209-4213-BDDF-283790CE73A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AFCE21-B209-4213-BDDF-283790CE73A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AFCE21-B209-4213-BDDF-283790CE73A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0249CDF-A1DA-4BC6-A19C-A52114F053C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0249CDF-A1DA-4BC6-A19C-A52114F053C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0249CDF-A1DA-4BC6-A19C-A52114F053C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0249CDF-A1DA-4BC6-A19C-A52114F053C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CADAA5C-E90C-43F3-9E4D-4D19277C2270}
+	EndGlobalSection
+EndGlobal
